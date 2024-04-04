@@ -142,7 +142,7 @@ point_trois.addEventListener("click", function () {
   btnDel.setAttribute("style", "background-color:rgb(55,26,82)");
   inputScreen.setAttribute("style", "background-color:rgb(31,5,60)");
   btn_Circle.setAttribute("style", "background-color:rgb(31,5,60)");
-  titre.setAttribute("style", "color:hsl(52, 100%, 62%)");
+  titre.setAttribute("style", "color:hsl(52, 100%, 62%) !importat");
   control_p.setAttribute("style", "color:hsl(52, 100%, 62%)");
   point_un.setAttribute("style", "color:hsl(52, 100%, 62%)");
   point_deux.setAttribute("style", "color:hsl(52, 100%, 62%)");

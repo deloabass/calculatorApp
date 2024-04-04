@@ -9,6 +9,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 .taggle{
@@ -126,110 +128,35 @@ button{
     position:absolute;
 }
 @media screen and (max-width:768px) {
-    .container {
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .btn {
-        width: 730px;
-        margin: 0;
-        padding: 0;
-    }
-
-    button {
-        width: 159px;
-        font-size: 35px;
-    }
-
-    .reset,
-    .egale {
-        width: 340px;
-        color: #fff;
-    }
-
-    #screen {
-        width: 100%;
-        height: 100px;
-        color: #000;
-
-    }
-
-    .screen {
-        width: 730px;
-        color: #000;
-    }
-
-
-}
-@media screen and (max-width:425px) {
-    .container {
+.container {
         justify-content: center;
         align-items: center;
     }
 
     .btn {
-        width: 380px;
+        width: 320px;
         margin: 0;
         padding: 0;
     }
 
     button {
-        width: 75px;
+        width: 60px;
         font-size: 15px;
     }
 
     .reset,
     .egale {
-        width: 170px;
+        width: 140px;
         color: #fff;
     }
 
-    #screen {
-        width: 100%;
-        height: 100px;
-        color: #000;
-
-    }
+   
 
     .screen {
-        width: 380px;
+        width: 320px;
         color: #000;
+        
     }
 
 
-}
-@media screen and (max-width:375px) {
-    .container{
-    justify-content: center;
-    align-items: center;
-    }
-  .btn {
-      width: 280px;
-      margin: 0;
-      padding: 0;
-  }
-  button {
-      width: 50px;
-      font-size: 15px;
-  }
-  .reset,
-  .egale {
-      width: 120px;
-      color: #fff;
-  }
-  #screen {
-      width: 100%;
-      height: 100px;
-      color: #000;
-    
-  }
- 
-  .screen {
-      width: 280px;
-      color: #000;
-  }
-
-    
 }
